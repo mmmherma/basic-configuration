@@ -34,9 +34,9 @@ sudo apt install dkms
 sudo dpkg -i https://download.virtualbox.org/virtualbox/6.1.32/virtualbox-6.1_6.1.32-149290~Debian~bullseye_amd64.deb
 sudo apt --fix-broken install
 VBoxManage --version
-sudo VBoxManage extpack install https://download.virtualbox.org/virtualbox/6.1.32/Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack
+sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack
 # Vagrant
-sudo dpkg -i https://releases.hashicorp.com/vagrant/2.2.19/vagrant_2.2.19_x86_64.deb
+sudo dpkg -i vagrant_2.2.19_x86_64.deb
 vagrant --version
 ```
 
